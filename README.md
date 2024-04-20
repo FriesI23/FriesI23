@@ -11,7 +11,7 @@
   - [Table Habit][Table Habit]
 - packages:
   - `dart/flutter`:
-    - [Dart Transmission Rpc][Dart Transmission Rpc] / [Simple Heatmap Calendar][Simple Heatmap Calendar] / [Named HTTP Color][Named HTTP Color] / [win2iana_tz_converter][win2iana_tz_converter]
+    - [Dart Transmission Rpc][Dart Transmission Rpc] / [Simple Heatmap Calendar][Simple Heatmap Calendar] / [Named HTTP Color][Named HTTP Color] / [Win2IANA TimeZone Converter][Win2IANA TimeZone Converter]
 - scripts:
   - [DNSPod DDNS PY][DNSPod DDNS PY]
 - documentations:
@@ -24,7 +24,7 @@
 [Dart Transmission Rpc]: https://github.com/FriesI23/dart_transmission_rpc
 [Simple Heatmap Calendar]: https://github.com/FriesI23/simple_heatmap_calendar
 [Named HTTP Color]: https://github.com/FriesI23/named_html_color
-[win2iana_tz_converter]: https://github.com/FriesI23/win2iana_tz_converter
+[Win2IANA TimeZone Converter]: https://github.com/FriesI23/win2iana_tz_converter
 [RPC4918 CN]: https://github.com/FriesI23/rfc4918-cn
 [Honkit Build Page]: https://github.com/FriesI23/honkit-build-page
 [DNSPod DDNS PY]: https://github.com/FriesI23/dnspod_ddns_py
