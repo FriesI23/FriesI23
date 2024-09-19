@@ -11,7 +11,7 @@
   - [Table Habit][Table Habit]
 - packages:
   - `dart/flutter`:
-    - [Dart Transmission Rpc][Dart Transmission Rpc] / [Simple Heatmap Calendar][Simple Heatmap Calendar] / [Named HTTP Color][Named HTTP Color] / [Win2IANA TimeZone Converter][Win2IANA TimeZone Converter]
+    - [Dart Transmission Rpc][Dart Transmission Rpc] / [Simple Heatmap Calendar][Simple Heatmap Calendar] / [Simple WebDAV Client][Simple WebDAV Client] / [Named HTTP Color][Named HTTP Color] / [Win2IANA TimeZone Converter][Win2IANA TimeZone Converter]
 - scripts:
   - [DNSPod DDNS PY][DNSPod DDNS PY]
 - documentations:
@@ -23,6 +23,7 @@
 [Table Habit]: https://github.com/FriesI23/mhabit
 [Dart Transmission Rpc]: https://github.com/FriesI23/dart_transmission_rpc
 [Simple Heatmap Calendar]: https://github.com/FriesI23/simple_heatmap_calendar
+[Simple WebDAV Client]: https://github.com/FriesI23/simple_webdav_client
 [Named HTTP Color]: https://github.com/FriesI23/named_html_color
 [Win2IANA TimeZone Converter]: https://github.com/FriesI23/win2iana_tz_converter
 [RPC4918 CN]: https://github.com/FriesI23/rfc4918-cn
