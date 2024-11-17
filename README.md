@@ -12,6 +12,8 @@
 - packages:
   - `dart/flutter`:
     - [Dart Transmission Rpc][Dart Transmission Rpc] / [Simple Heatmap Calendar][Simple Heatmap Calendar] / [Simple WebDAV Client][Simple WebDAV Client] / [Named HTTP Color][Named HTTP Color] / [Win2IANA TimeZone Converter][Win2IANA TimeZone Converter]
+  - `openwrt`:
+    - [OpenWRT ddns-scripts for Tencent Cloud (DNSPod)][OpenWRT ddns-scripts for Tencent Cloud (DNSPod)]
 - scripts:
   - [DNSPod DDNS PY][DNSPod DDNS PY]
 - documentations:
@@ -29,3 +31,4 @@
 [RPC4918 CN]: https://github.com/FriesI23/rfc4918-cn
 [Honkit Build Page]: https://github.com/FriesI23/honkit-build-page
 [DNSPod DDNS PY]: https://github.com/FriesI23/dnspod_ddns_py
+[OpenWRT ddns-scripts for Tencent Cloud (DNSPod)]: https://github.com/FriesI23/ddns-scripts_tencent_cloud
