@@ -1,9 +1,19 @@
 <!-- build from: https://streak-stats.demolab.com/demo -->
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=FriesI23&theme=github-green-purple&hide_border=true&mode=weekly)](https://git.io/streak-stats) -->
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=FriesI23&show_icons=true&theme=highcontrast)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=FriesI23&show_icons=true&theme=highcontrast">
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=FriesI23&show_icons=true&theme=default">
+</picture>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=FriesI23&layout=compact&theme=highcontrast)](https://github.com/FriesI23)
+<br/>
+
+<a href="https://github.com/FriesI23">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=FriesI23&layout=compact&theme=highcontrast">
+    <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FriesI23&layout=compact&theme=default">
+  </picture>
+</a>
 
 ---
 
@@ -21,6 +31,7 @@
 - github-actions:
   - [Honkit Build Page][Honkit Build Page]
 
+<!-- refs -->
 
 [Table Habit]: https://github.com/FriesI23/mhabit
 [Dart Transmission Rpc]: https://github.com/FriesI23/dart_transmission_rpc
