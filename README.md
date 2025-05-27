@@ -26,6 +26,8 @@
     - [OpenWRT ddns-scripts for Tencent Cloud (DNSPod)][OpenWRT ddns-scripts for Tencent Cloud (DNSPod)]
 - scripts:
   - [DNSPod DDNS PY][DNSPod DDNS PY]
+- repo:
+  - [AltStore Repo][AltStore Repo]
 - documentations:
   - [RPC4918 CN][RPC4918 CN]
 - github-actions:
@@ -43,3 +45,4 @@
 [Honkit Build Page]: https://github.com/FriesI23/honkit-build-page
 [DNSPod DDNS PY]: https://github.com/FriesI23/dnspod_ddns_py
 [OpenWRT ddns-scripts for Tencent Cloud (DNSPod)]: https://github.com/FriesI23/ddns-scripts_tencent_cloud
+[AltStore Repo]: https://github.com/FriesI23/altstore-repo 
