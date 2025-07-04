@@ -27,7 +27,7 @@
 - scripts:
   - [DNSPod DDNS PY][DNSPod DDNS PY]
 - repo:
-  - [AltStore Repo][AltStore Repo]
+  - [AltStore Repo][AltStore Repo] / [HomeBrew Repo][HomeBrew Repo]
 - documentations:
   - [RPC4918 CN][RPC4918 CN]
 - github-actions:
@@ -46,3 +46,4 @@
 [DNSPod DDNS PY]: https://github.com/FriesI23/dnspod_ddns_py
 [OpenWRT ddns-scripts for Tencent Cloud (DNSPod)]: https://github.com/FriesI23/ddns-scripts_tencent_cloud
 [AltStore Repo]: https://github.com/FriesI23/altstore-repo 
+[HomeBrew Repo]: https://github.com/FriesI23/homebrew-brew-repo
