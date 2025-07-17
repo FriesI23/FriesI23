@@ -27,7 +27,7 @@
 - scripts:
   - [DNSPod DDNS PY][DNSPod DDNS PY]
 - repo:
-  - [AltStore Repo][AltStore Repo] / [HomeBrew Repo][HomeBrew Repo] / [Flathub Repo][Flathub Repo]
+  - [AltStore Repo][AltStore Repo] / [HomeBrew Repo][HomeBrew Repo] / [Flathub Repo - Table Habit][Flathub Repo - Habit Habit]
 - documentations:
   - [RPC4918 CN][RPC4918 CN]
 - github-actions:
@@ -47,4 +47,4 @@
 [OpenWRT ddns-scripts for Tencent Cloud (DNSPod)]: https://github.com/FriesI23/ddns-scripts_tencent_cloud
 [AltStore Repo]: https://github.com/FriesI23/altstore-repo 
 [HomeBrew Repo]: https://github.com/FriesI23/homebrew-brew-repo
-[Flathub Repo]: https://github.com/flathub/io.github.friesi23.mhabit
+[Flathub Repo - Table Habit]: https://github.com/flathub/io.github.friesi23.mhabit
