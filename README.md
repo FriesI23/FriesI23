@@ -2,8 +2,8 @@
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=FriesI23&theme=github-green-purple&hide_border=true&mode=weekly)](https://git.io/streak-stats) -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=FriesI23&show_icons=true&theme=highcontrast">
-  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=FriesI23&show_icons=true&theme=default">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=FriesI23&show_icons=true&theme=highcontrast&rank_icon=percentile">
+  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=FriesI23&show_icons=true&theme=default&rank_icon=percentile">
 </picture>
 
 <br/>
