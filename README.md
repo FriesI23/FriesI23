@@ -2,21 +2,21 @@
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=FriesI23&theme=github-green-purple&hide_border=true&mode=weekly)](https://git.io/streak-stats) -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-omega-self-63.vercel.app/api?username=FriesI23&show_icons=true&theme=highcontrast&rank_icon=percentile">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-omega-self-63.vercel.app/api?username=FriesI23&show_icons=true&theme=github_dark&rank_icon=percentile">
   <img alt="Stats" src="https://github-readme-stats-omega-self-63.vercel.app/api?username=FriesI23&show_icons=true&theme=default&rank_icon=percentile">
 </picture>
 
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=friesi23&row=3&column=5&&theme=dark_dimmed">
-  <img alt="Trophy" src="https://github-profile-trophy.vercel.app/?username=friesi23&row=3&column=5">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=friesi23&row=3&column=5&theme=darkhub&rank=SECRET%2CCSSS%2CSS%2CS">
+  <img alt="Trophy" src="https://github-profile-trophy.vercel.app/?username=friesi23&row=3&column=5&rank=SECRET%2CCSSS%2CSS%2CS">
 </picture>
 
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-omega-self-63.vercel.app/api/top-langs/?username=FriesI23&layout=compact&theme=highcontrast">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-omega-self-63.vercel.app/api/top-langs/?username=FriesI23&layout=compact&theme=github_dark">
   <img alt="Langs" src="https://github-readme-stats-omega-self-63.vercel.app/api/top-langs/?username=FriesI23&layout=compact&theme=default">
 </picture>
 
