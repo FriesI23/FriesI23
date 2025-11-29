@@ -3,17 +3,22 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=FriesI23&show_icons=true&theme=highcontrast&rank_icon=percentile">
-  <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=FriesI23&show_icons=true&theme=default&rank_icon=percentile">
+  <img alt="Stats" src="https://github-readme-stats.vercel.app/api?username=FriesI23&show_icons=true&theme=default&rank_icon=percentile">
 </picture>
 
 <br/>
 
-<a href="https://github.com/FriesI23">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=FriesI23&layout=compact&theme=highcontrast">
-    <img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FriesI23&layout=compact&theme=default">
-  </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=friesi23&row=3&column=5&&theme=dark_dimmed">
+  <img alt="Trophy" src="https://github-profile-trophy.vercel.app/?username=friesi23&row=3&column=5">
+</picture>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=FriesI23&layout=compact&theme=highcontrast">
+  <img alt="Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FriesI23&layout=compact&theme=default">
+</picture>
 
 ---
 
