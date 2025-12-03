@@ -36,7 +36,7 @@
 - documentations:
   - [RPC4918 CN][RPC4918 CN]
 - github-actions:
-  - [Honkit Build Page][Honkit Build Page]
+  - [Honkit Build Page][Honkit Build Page] / [Homebrew Bump Cask Plus][Homebrew Bump Cask Plus]
 
 <!-- refs -->
 
@@ -48,6 +48,7 @@
 [Win2IANA TimeZone Converter]: https://github.com/FriesI23/win2iana_tz_converter
 [RPC4918 CN]: https://github.com/FriesI23/rfc4918-cn
 [Honkit Build Page]: https://github.com/FriesI23/honkit-build-page
+[Homebrew Bump Cask Plus]: https://github.com/FriesI23/action-homebrew-bump-cask
 [DNSPod DDNS PY]: https://github.com/FriesI23/dnspod_ddns_py
 [OpenWRT ddns-scripts for Tencent Cloud (DNSPod)]: https://github.com/FriesI23/ddns-scripts_tencent_cloud
 [AltStore Repo]: https://github.com/FriesI23/altstore-repo 
