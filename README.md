@@ -9,8 +9,8 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=friesi23&row=3&column=5&theme=darkhub&rank=SECRET%2CCSSS%2CSS%2CS">
-  <img alt="Trophy" src="https://github-profile-trophy.vercel.app/?username=friesi23&row=3&column=5&rank=SECRET%2CCSSS%2CSS%2CS">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-five-flax.vercel.app/?username=friesi23&row=3&column=5&theme=darkhub&rank=SECRET%2CCSSS%2CSS%2CS">
+  <img alt="Trophy" src="https://github-profile-trophy-five-flax.vercel.app/?username=friesi23&row=3&column=5&rank=SECRET%2CCSSS%2CSS%2CS">
 </picture>
 
 <br/>
