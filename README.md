@@ -20,6 +20,14 @@
   <img alt="Langs" src="https://github-readme-stats-omega-self-63.vercel.app/api/top-langs/?username=FriesI23&layout=compact&theme=default">
 </picture>
 
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FriesI23/FriesI23/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FriesI23/FriesI23/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="[github-snake.svg](https://raw.githubusercontent.com/FriesI23/FriesI23/output/github-contribution-grid-snake.svg)" />
+</picture>
+
 ---
 
 - apps:
