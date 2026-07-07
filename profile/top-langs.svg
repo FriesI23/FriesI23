@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="165" viewBox="0 0 300 165" role="img" aria-labelledby="title desc">
+  <title id="title">README top languages placeholder</title>
+  <desc id="desc">Placeholder image until the Update README cards workflow generates the real top languages card.</desc>
+  <rect width="300" height="165" fill="#ffffff" rx="8" ry="8" />
+  <rect x="12" y="12" width="276" height="141" fill="#f6f8fa" rx="6" ry="6" />
+  <text x="24" y="62" fill="#24292f" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20">Top languages pending</text>
+  <text x="24" y="98" fill="#57606a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">The workflow will replace this file</text>
+  <text x="24" y="122" fill="#57606a" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">after its first successful run.</text>
+</svg>

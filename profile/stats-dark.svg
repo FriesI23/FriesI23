@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="title desc">
+  <title id="title">README stats placeholder</title>
+  <desc id="desc">Placeholder image until the Update README cards workflow generates the real dark stats card.</desc>
+  <rect width="495" height="195" fill="#0d1117" rx="8" ry="8" />
+  <rect x="12" y="12" width="471" height="171" fill="#161b22" rx="6" ry="6" />
+  <text x="32" y="72" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="22">Stats card pending</text>
+  <text x="32" y="112" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16">Run the Update README cards workflow to generate this asset.</text>
+  <text x="32" y="142" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16">The GitHub Action will overwrite this placeholder automatically.</text>
+</svg>

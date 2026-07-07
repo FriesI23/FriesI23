@@ -1,9 +1,13 @@
+<!-- markdownlint-disable no-inline-html -->
+<!-- markdownlint-disable first-line-heading -->
+<!-- markdownlint-disable link-image-reference-definitions -->
+
 <!-- build from: https://streak-stats.demolab.com/demo -->
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=FriesI23&theme=github-green-purple&hide_border=true&mode=weekly)](https://git.io/streak-stats) -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-omega-self-63.vercel.app/api?username=FriesI23&show_icons=true&theme=github_dark&rank_icon=percentile">
-  <img alt="Stats" src="https://github-readme-stats-omega-self-63.vercel.app/api?username=FriesI23&show_icons=true&theme=default&rank_icon=percentile">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/stats-dark.svg">
+  <img alt="Stats" src="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/stats.svg">
 </picture>
 
 <br/>
@@ -16,8 +20,8 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-omega-self-63.vercel.app/api/top-langs/?username=FriesI23&layout=compact&theme=github_dark">
-  <img alt="Langs" src="https://github-readme-stats-omega-self-63.vercel.app/api/top-langs/?username=FriesI23&layout=compact&theme=default">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/top-langs-dark.svg">
+  <img alt="Langs" src="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/top-langs.svg">
 </picture>
 
 <br/>
@@ -59,7 +63,7 @@
 [Homebrew Bump Cask Plus]: https://github.com/FriesI23/action-homebrew-bump-cask
 [DNSPod DDNS PY]: https://github.com/FriesI23/dnspod_ddns_py
 [OpenWRT ddns-scripts for Tencent Cloud (DNSPod)]: https://github.com/FriesI23/ddns-scripts_tencent_cloud
-[AltStore Repo]: https://github.com/FriesI23/altstore-repo 
+[AltStore Repo]: https://github.com/FriesI23/altstore-repo
 [HomeBrew Repo]: https://github.com/FriesI23/homebrew-brew-repo
 [Scoop Bucket]: https://github.com/FriesI23/scoop-bucket
 [Flathub Repo - Table Habit]: https://github.com/flathub/io.github.friesi23.mhabit
