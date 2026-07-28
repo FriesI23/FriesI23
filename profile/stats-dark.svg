@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Fries_I23's GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 1507, Total Commits  (last year) : 384, Total PRs: 626, Total Issues: 62, Contributed to (last year): 14</desc>
+        <title id="titleId">Fries_I23&#39;s GitHub Stats, Rank: A+</title>
+        <desc id="descId">Total Stars Earned: 1509, Total Commits  (last year) : 384, Total PRs: 627, Total Issues: 62, Contributed to (last year): 14</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 24.79438288248423;
+        stroke-dashoffset: 24.790784296888695;
       }
     }
   
@@ -126,7 +126,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Fries_I23's GitHub Stats</text>
+      >Fries_I23&#39;s GitHub Stats</text>
     </g>
       </g>
     
@@ -195,7 +195,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >626</text>
+      >627</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
