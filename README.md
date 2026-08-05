@@ -4,10 +4,24 @@
 
 <!-- build from: https://streak-stats.demolab.com/demo -->
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=FriesI23&theme=github-green-purple&hide_border=true&mode=weekly)](https://git.io/streak-stats) -->
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/stats-dark.svg">
+  <img
+    alt="Stats"
+    height="180"
+    src="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/stats.svg">
+</picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/stats-dark.svg">
-  <img alt="Stats" src="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/stats.svg">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/top-langs-dark.svg">
+  <img
+    alt="Langs"
+    height="180"
+    src="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/top-langs.svg">
 </picture>
 
 <br/>
@@ -20,35 +34,47 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/top-langs-dark.svg">
-  <img alt="Langs" src="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/top-langs.svg">
-</picture>
-
-<br/>
-
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FriesI23/FriesI23/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FriesI23/FriesI23/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="[github-snake.svg](https://raw.githubusercontent.com/FriesI23/FriesI23/output/github-contribution-grid-snake.svg)" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/FriesI23/FriesI23/output/github-contribution-grid-snake.svg" />
 </picture>
+
+| Type | Project | Desc |
+| --- | --- | --- |
+| ![app][icon-app] | [Table Habit][Table Habit] | ![stars](https://img.shields.io/github/stars/FriesI23/mhabit?style=flat-square) ![release](https://img.shields.io/github/v/release/FriesI23/mhabit?style=flat-square) |
+| ![dart][icon-dart] | [Dart Transmission Rpc][Dart Transmission Rpc] | ![pub](https://img.shields.io/pub/v/dart_transmission_rpc?style=flat-square) ![stars](https://img.shields.io/github/stars/FriesI23/dart_transmission_rpc?style=flat-square) |
+| ![dart][icon-dart] | [Simple Heatmap Calendar][Simple Heatmap Calendar] | ![pub](https://img.shields.io/pub/v/simple_heatmap_calendar?style=flat-square) ![stars](https://img.shields.io/github/stars/FriesI23/simple_heatmap_calendar?style=flat-square) |
+| ![dart][icon-dart] | [Simple WebDAV Client][Simple WebDAV Client] | ![pub](https://img.shields.io/pub/v/simple_webdav_client?style=flat-square) ![stars](https://img.shields.io/github/stars/FriesI23/simple_webdav_client?style=flat-square) |
+| ![dart][icon-dart] | [Named HTTP Color][Named HTTP Color] | ![pub](https://img.shields.io/pub/v/named_html_color?style=flat-square) ![stars](https://img.shields.io/github/stars/FriesI23/named_html_color?style=flat-square) |
+| ![dart][icon-dart] | [Win2IANA TimeZone Converter][Win2IANA TimeZone Converter] | ![pub](https://img.shields.io/pub/v/win2iana_tz_converter?style=flat-square) ![stars](https://img.shields.io/github/stars/FriesI23/win2iana_tz_converter?style=flat-square) |
+| ![dart][icon-dart] | [Native Natural Sort][Native Natural Sort] | ![pub](https://img.shields.io/pub/v/native_natural_sort?style=flat-square) ![stars](https://img.shields.io/github/stars/FriesI23/native_natural_sort?style=flat-square) |
+| ![openwrt][icon-openwrt] | [OpenWRT ddns-scripts for Tencent Cloud (DNSPod)][OpenWRT ddns-scripts for Tencent Cloud (DNSPod)] | ![stars](https://img.shields.io/github/stars/FriesI23/ddns-scripts_tencent_cloud?style=flat-square) |
+| ![python][icon-python] | [DNSPod DDNS PY][DNSPod DDNS PY] | ![stars](https://img.shields.io/github/stars/FriesI23/dnspod_ddns_py?style=flat-square) |
+| ![github][icon-github] | [AltStore Repo][AltStore Repo] | |
+| ![github][icon-github] | [HomeBrew Repo][HomeBrew Repo] | ![homebrew][icon-homebrew] |
+| ![github][icon-github] | [Flathub Repo - Table Habit][Flathub Repo - Table Habit] | ![flathub](https://img.shields.io/flathub/v/io.github.friesi23.mhabit?style=flat-square) |
+| ![github][icon-github] | [Scoop Bucket][Scoop Bucket] | |
+| ![docs][icon-docs] | [RPC4918 CN][RPC4918 CN] | ![stars](https://img.shields.io/github/stars/FriesI23/rfc4918-cn?style=flat-square) |
+| ![actions][icon-actions] | [Honkit Build Page][Honkit Build Page] | ![stars](https://img.shields.io/github/stars/FriesI23/honkit-build-page?style=flat-square) |
+| ![actions][icon-actions] | [Homebrew Bump Cask Plus][Homebrew Bump Cask Plus] | ![stars](https://img.shields.io/github/stars/FriesI23/action-homebrew-bump-cask?style=flat-square) |
 
 ---
 
-- apps:
-  - [Table Habit][Table Habit]
-- packages:
-  - `dart/flutter`:
-    - [Dart Transmission Rpc][Dart Transmission Rpc] / [Simple Heatmap Calendar][Simple Heatmap Calendar] / [Simple WebDAV Client][Simple WebDAV Client] / [Named HTTP Color][Named HTTP Color] / [Win2IANA TimeZone Converter][Win2IANA TimeZone Converter] / [Native Natural Sort][Native Natural Sort]
-  - `openwrt`:
-    - [OpenWRT ddns-scripts for Tencent Cloud (DNSPod)][OpenWRT ddns-scripts for Tencent Cloud (DNSPod)]
-- scripts:
-  - [DNSPod DDNS PY][DNSPod DDNS PY]
-- repo:
-  - [AltStore Repo][AltStore Repo] / [HomeBrew Repo][HomeBrew Repo] / [Flathub Repo - Table Habit][Flathub Repo - Table Habit] / [Scoop Bucket][Scoop Bucket]
-- documentations:
-  - [RPC4918 CN][RPC4918 CN]
-- github-actions:
-  - [Honkit Build Page][Honkit Build Page] / [Homebrew Bump Cask Plus][Homebrew Bump Cask Plus]
+[![GitHub](https://img.shields.io/badge/GitHub-FriesI23-181717?style=flat-square&logo=github)](https://github.com/FriesI23)
+![Followers](https://img.shields.io/github/followers/FriesI23?style=flat-square&label=Followers)
+![Profile views](https://komarev.com/ghpvc/?username=FriesI23&style=flat-square&color=0e75b6)
+
+
+<!-- icons -->
+
+[icon-app]: https://img.shields.io/badge/-02569B?style=flat-square&logo=flutter&logoColor=white
+[icon-dart]: https://img.shields.io/badge/-00ADD8?style=flat-square&logo=dart&logoColor=white
+[icon-openwrt]: https://img.shields.io/badge/-00B5E2?style=flat-square&logo=openwrt&logoColor=white
+[icon-python]: https://img.shields.io/badge/-3776AB?style=flat-square&logo=python&logoColor=white
+[icon-github]: https://img.shields.io/badge/-181717?style=flat-square&logo=github&logoColor=white
+[icon-homebrew]: https://img.shields.io/badge/-000000?style=flat-square&logo=homebrew&logoColor=white
+[icon-docs]: https://img.shields.io/badge/-000000?style=flat-square&logo=markdown&logoColor=white
+[icon-actions]: https://img.shields.io/badge/-2088FF?style=flat-square&logo=githubactions&logoColor=white
 
 <!-- refs -->
 
