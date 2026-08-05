@@ -38,7 +38,7 @@
   - [Table Habit][Table Habit]
 - packages:
   - `dart/flutter`:
-    - [Dart Transmission Rpc][Dart Transmission Rpc] / [Simple Heatmap Calendar][Simple Heatmap Calendar] / [Simple WebDAV Client][Simple WebDAV Client] / [Named HTTP Color][Named HTTP Color] / [Win2IANA TimeZone Converter][Win2IANA TimeZone Converter]
+    - [Dart Transmission Rpc][Dart Transmission Rpc] / [Simple Heatmap Calendar][Simple Heatmap Calendar] / [Simple WebDAV Client][Simple WebDAV Client] / [Named HTTP Color][Named HTTP Color] / [Win2IANA TimeZone Converter][Win2IANA TimeZone Converter] / [Native Natural Sort][Native Natural Sort]
   - `openwrt`:
     - [OpenWRT ddns-scripts for Tencent Cloud (DNSPod)][OpenWRT ddns-scripts for Tencent Cloud (DNSPod)]
 - scripts:
@@ -67,3 +67,4 @@
 [HomeBrew Repo]: https://github.com/FriesI23/homebrew-brew-repo
 [Scoop Bucket]: https://github.com/FriesI23/scoop-bucket
 [Flathub Repo - Table Habit]: https://github.com/flathub/io.github.friesi23.mhabit
+[Native Natural Sort]: https://github.com/FriesI23/native_natural_sort
