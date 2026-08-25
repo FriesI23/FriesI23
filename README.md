@@ -49,6 +49,7 @@
 | ![dart][icon-dart] | [Win2IANA TimeZone Converter][Win2IANA TimeZone Converter] | [![pub](https://img.shields.io/pub/v/win2iana_tz_converter?style=flat-square)](https://pub.dev/packages/win2iana_tz_converter) [![likes](https://img.shields.io/pub/likes/win2iana_tz_converter?style=flat-square)](https://pub.dev/packages/win2iana_tz_converter) ![downloads][dl-win2iana_tz_converter] ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fwin2iana_tz_converter&query=%24.repo.stars&label=stars&style=flat-square) |
 | ![dart][icon-dart] | [Native Natural Sort][Native Natural Sort] | [![pub](https://img.shields.io/pub/v/native_natural_sort?style=flat-square)](https://pub.dev/packages/native_natural_sort) [![likes](https://img.shields.io/pub/likes/native_natural_sort?style=flat-square)](https://pub.dev/packages/native_natural_sort) ![downloads][dl-native_natural_sort] ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fnative_natural_sort&query=%24.repo.stars&label=stars&style=flat-square) |
 | ![dart][icon-dart] | [Adaptive Actions][Adaptive Actions] | [![pub](https://img.shields.io/pub/v/adaptive_actions?style=flat-square)](https://pub.dev/packages/adaptive_actions) [![likes](https://img.shields.io/pub/likes/adaptive_actions?style=flat-square)](https://pub.dev/packages/adaptive_actions) ![downloads][dl-adaptive_actions] ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fadaptive_actions&query=%24.repo.stars&label=stars&style=flat-square) |
+| ![dart][icon-dart] | [iOS Window Control Layout][iOS Window Control Layout] | [![pub](https://img.shields.io/pub/v/ios_window_control_layout?style=flat-square)](https://pub.dev/packages/ios_window_control_layout) [![likes](https://img.shields.io/pub/likes/ios_window_control_layout?style=flat-square)](https://pub.dev/packages/ios_window_control_layout) ![downloads][dl-ios_window_control_layout] ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fios_window_control_layout&query=%24.repo.stars&label=stars&style=flat-square) |
 | ![openwrt][icon-openwrt] | [OpenWRT ddns-scripts for Tencent Cloud (DNSPod)][OpenWRT ddns-scripts for Tencent Cloud (DNSPod)] | ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fddns-scripts_tencent_cloud&query=%24.repo.stars&label=stars&style=flat-square) |
 | ![python][icon-python] | [DNSPod DDNS PY][DNSPod DDNS PY] | ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fdnspod_ddns_py&query=%24.repo.stars&label=stars&style=flat-square) |
 | ![github][icon-github] | [AltStore Repo][AltStore Repo] | [![altstore][icon-altstore]][AltStore Source] [![sidestore][icon-sidestore]][SideStore Source] |
@@ -89,11 +90,13 @@
 [dl-win2iana_tz_converter]: https://img.shields.io/badge/dynamic/json?url=https://pub.dev/api/packages/win2iana_tz_converter/score&label=downloads&query=%24.downloadCount30Days&style=flat-square
 [dl-native_natural_sort]: https://img.shields.io/badge/dynamic/json?url=https://pub.dev/api/packages/native_natural_sort/score&label=downloads&query=%24.downloadCount30Days&style=flat-square
 [dl-adaptive_actions]: https://img.shields.io/badge/dynamic/json?url=https://pub.dev/api/packages/adaptive_actions/score&label=downloads&query=%24.downloadCount30Days&style=flat-square
+[dl-ios_window_control_layout]: https://img.shields.io/badge/dynamic/json?url=https://pub.dev/api/packages/ios_window_control_layout/score&label=downloads&query=%24.downloadCount30Days&style=flat-square
 
 <!-- refs -->
 
 [Table Habit]: https://github.com/FriesI23/mhabit
 [Adaptive Actions]: https://github.com/FriesI23/adaptive_actions
+[iOS Window Control Layout]: https://github.com/FriesI23/ios_window_control_layout
 [Dart Transmission Rpc]: https://github.com/FriesI23/dart_transmission_rpc
 [Simple Heatmap Calendar]: https://github.com/FriesI23/simple_heatmap_calendar
 [Simple WebDAV Client]: https://github.com/FriesI23/simple_webdav_client
