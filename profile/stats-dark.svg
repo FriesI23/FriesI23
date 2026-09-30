@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Fries_I23&#39;s GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 1696, Total Commits  (last year) : 590, Total PRs: 704, Total Issues: 63, Contributed to (last year): 12</desc>
+        <desc id="descId">Total Stars Earned: 1698, Total Commits  (last year) : 599, Total PRs: 709, Total Issues: 63, Contributed to (last year): 12</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 16.73537314948567;
+        stroke-dashoffset: 16.531300787066257;
       }
     }
   
@@ -153,7 +153,7 @@
           Top
         </text>
         <text x="-5" y="12" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="percentile-rank-value" class="rank-percentile-text">
-          6.7%
+          6.6%
         </text>
       
         </g>
@@ -187,7 +187,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >590</text>
+      >599</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -202,7 +202,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >704</text>
+      >709</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
