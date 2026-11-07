@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Fries_I23&#39;s GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 1774, Total Commits  (last year) : 633, Total PRs: 740, Total Issues: 72, Contributed to (last year): 13</desc>
+        <desc id="descId">Total Stars Earned: 1775, Total Commits  (last year) : 633, Total PRs: 740, Total Issues: 72, Contributed to (last year): 13</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 14.834379720931395;
+        stroke-dashoffset: 14.833121372516132;
       }
     }
   
