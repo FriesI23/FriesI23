@@ -27,8 +27,8 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-five-flax.vercel.app/?username=friesi23&row=3&column=5&theme=darkhub&rank=SECRET%2CCSSS%2CSS%2CS">
-  <img alt="Trophy" src="https://github-profile-trophy-five-flax.vercel.app/?username=friesi23&row=3&column=5&rank=SECRET%2CCSSS%2CSS%2CS">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/trophies/dark.svg">
+  <img alt="Trophy" src="https://raw.githubusercontent.com/FriesI23/FriesI23/master/profile/trophies/light.svg">
 </picture>
 
 <br/>
@@ -39,74 +39,35 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/FriesI23/FriesI23/output/github-contribution-grid-snake.svg" />
 </picture>
 
+<!-- profile-projects:start -->
+
 | Type | Project | Desc |
 | --- | --- | --- |
-| ![app][icon-app] | [Table Habit][Table Habit] | ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fmhabit&query=%24.repo.stars&label=stars&style=flat-square) [![release](https://img.shields.io/github/v/release/FriesI23/mhabit?style=flat-square)](https://github.com/FriesI23/mhabit/releases) |
-| ![dart][icon-dart] | [Simple Heatmap Calendar][Simple Heatmap Calendar] | [![pub](https://img.shields.io/pub/v/simple_heatmap_calendar?style=flat-square)](https://pub.dev/packages/simple_heatmap_calendar) [![likes](https://img.shields.io/pub/likes/simple_heatmap_calendar?style=flat-square)](https://pub.dev/packages/simple_heatmap_calendar) ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fsimple_heatmap_calendar&query=%24.repo.stars&label=stars&style=flat-square) |
-| ![dart][icon-dart] | [Simple WebDAV Client][Simple WebDAV Client] | [![pub](https://img.shields.io/pub/v/simple_webdav_client?style=flat-square)](https://pub.dev/packages/simple_webdav_client) [![likes](https://img.shields.io/pub/likes/simple_webdav_client?style=flat-square)](https://pub.dev/packages/simple_webdav_client) ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fsimple_webdav_client&query=%24.repo.stars&label=stars&style=flat-square) |
-| ![dart][icon-dart] | [Great List View Plus][Great List View Plus] | [![pub](https://img.shields.io/pub/v/great_list_view_plus?style=flat-square)](https://pub.dev/packages/great_list_view_plus) [![likes](https://img.shields.io/pub/likes/great_list_view_plus?style=flat-square)](https://pub.dev/packages/great_list_view_plus) ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fgreat_list_view_plus&query=%24.repo.stars&label=stars&style=flat-square) |
-| ![dart][icon-dart] | [iOS Window Control Layout][iOS Window Control Layout] | [![pub](https://img.shields.io/pub/v/ios_window_control_layout?style=flat-square)](https://pub.dev/packages/ios_window_control_layout) [![likes](https://img.shields.io/pub/likes/ios_window_control_layout?style=flat-square)](https://pub.dev/packages/ios_window_control_layout) ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fios_window_control_layout&query=%24.repo.stars&label=stars&style=flat-square) |
-| ![dart][icon-dart] | [Flutter Adaptive Sidebar][Flutter Adaptive Sidebar] | [![pub](https://img.shields.io/pub/v/flutter_adaptive_sidebar?style=flat-square)](https://pub.dev/packages/flutter_adaptive_sidebar) [![likes](https://img.shields.io/pub/likes/flutter_adaptive_sidebar?style=flat-square)](https://pub.dev/packages/flutter_adaptive_sidebar) ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fflutter_adaptive_sidebar&query=%24.repo.stars&label=stars&style=flat-square) |
-| ![dart][icon-dart] | [Adaptive Actions][Adaptive Actions] | [![pub](https://img.shields.io/pub/v/adaptive_actions?style=flat-square)](https://pub.dev/packages/adaptive_actions) [![likes](https://img.shields.io/pub/likes/adaptive_actions?style=flat-square)](https://pub.dev/packages/adaptive_actions) ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fadaptive_actions&query=%24.repo.stars&label=stars&style=flat-square) |
-| ![dart][icon-dart] | [Native Natural Sort][Native Natural Sort] | [![pub](https://img.shields.io/pub/v/native_natural_sort?style=flat-square)](https://pub.dev/packages/native_natural_sort) [![likes](https://img.shields.io/pub/likes/native_natural_sort?style=flat-square)](https://pub.dev/packages/native_natural_sort) ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fnative_natural_sort&query=%24.repo.stars&label=stars&style=flat-square) |
-| ![dart][icon-dart] | [Win2IANA TimeZone Converter][Win2IANA TimeZone Converter] | [![pub](https://img.shields.io/pub/v/win2iana_tz_converter?style=flat-square)](https://pub.dev/packages/win2iana_tz_converter) [![likes](https://img.shields.io/pub/likes/win2iana_tz_converter?style=flat-square)](https://pub.dev/packages/win2iana_tz_converter) ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fwin2iana_tz_converter&query=%24.repo.stars&label=stars&style=flat-square) |
-| ![dart][icon-dart] | [Dart Transmission RPC][Dart Transmission RPC] | [![pub](https://img.shields.io/pub/v/dart_transmission_rpc?style=flat-square)](https://pub.dev/packages/dart_transmission_rpc) [![likes](https://img.shields.io/pub/likes/dart_transmission_rpc?style=flat-square)](https://pub.dev/packages/dart_transmission_rpc) ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fdart_transmission_rpc&query=%24.repo.stars&label=stars&style=flat-square) |
-| ![dart][icon-dart] | [Named HTML Color][Named HTML Color] | [![pub](https://img.shields.io/pub/v/named_html_color?style=flat-square)](https://pub.dev/packages/named_html_color) [![likes](https://img.shields.io/pub/likes/named_html_color?style=flat-square)](https://pub.dev/packages/named_html_color) ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fnamed_html_color&query=%24.repo.stars&label=stars&style=flat-square) |
-| ![openwrt][icon-openwrt] | [OpenWrt ddns-scripts for Tencent Cloud (DNSPod)][OpenWrt ddns-scripts for Tencent Cloud (DNSPod)] | ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fddns-scripts_tencent_cloud&query=%24.repo.stars&label=stars&style=flat-square) |
-| ![python][icon-python] | [DNSPod DDNS PY][DNSPod DDNS PY] | ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fdnspod_ddns_py&query=%24.repo.stars&label=stars&style=flat-square) |
-| ![actions][icon-actions] | [Homebrew Bump Cask Plus][Homebrew Bump Cask Plus] | ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Faction-homebrew-bump-cask&query=%24.repo.stars&label=stars&style=flat-square) [![marketplace][icon-marketplace]][Homebrew Bump Cask Plus Marketplace] |
-| ![actions][icon-actions] | [Honkit Build Page][Honkit Build Page] | ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Fhonkit-build-page&query=%24.repo.stars&label=stars&style=flat-square) [![marketplace][icon-marketplace]][Honkit Build Page Marketplace] |
-| ![docs][icon-docs] | [RFC4918 CN][RFC4918 CN] | ![stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fungh.cc%2Frepos%2FFriesI23%2Frfc4918-cn&query=%24.repo.stars&label=stars&style=flat-square) [![gitbook][icon-gitbook]][RFC4918 CN Site] |
-| ![github][icon-github] | [Homebrew Repo][Homebrew Repo] | [![cask](https://img.shields.io/github/directory-file-count/FriesI23/homebrew-brew-repo/Casks?type=file&extension=rb&style=flat-square&color=fbb040&label=cask)][Homebrew Tap Site] [![cask-third-party](https://img.shields.io/github/directory-file-count/FriesI23/homebrew-brew-repo/Casks/third-party?type=file&extension=rb&style=flat-square&color=fbb040&label=cask-third-party)][Homebrew Tap Site] [![third-party](https://img.shields.io/static/v1?label=third-party&message=penpot-desktop%20%7C%20wireguard%20%7C%20...&color=lightgrey&style=flat-square)][Homebrew Tap Site] |
-| ![github][icon-github] | [AltStore Repo][AltStore Repo] | [![altstore][icon-altstore]][AltStore Source] [![sidestore][icon-sidestore]][SideStore Source] |
-| ![github][icon-github] | [Flathub Repo - Table Habit][Flathub Repo - Table Habit] | [![flathub](https://img.shields.io/flathub/v/io.github.friesi23.mhabit?style=flat-square)](https://flathub.org/apps/io.github.friesi23.mhabit) |
-| ![github][icon-github] | [Scoop Bucket][Scoop Bucket] | [![apps](https://img.shields.io/github/directory-file-count/FriesI23/scoop-bucket/bucket?type=file&extension=json&style=flat-square&label=apps)][Scoop Bucket] |
+| ![app](profile/badges/static/icon-app.svg) | [Table Habit](https://github.com/FriesI23/mhabit) | ![stars](profile/badges/mhabit-stars.svg) [![release](profile/badges/mhabit-release.svg)](https://github.com/FriesI23/mhabit/releases) [![downloads / 30d](profile/badges/mhabit-downloads-30d.svg)](profile/mhabit-downloads.md) [![downloads / total](profile/badges/mhabit-downloads-total.svg)](profile/mhabit-downloads.md) |
+| ![dart](profile/badges/static/icon-dart.svg) | [Simple Heatmap Calendar](https://github.com/FriesI23/simple_heatmap_calendar) | [![pub](profile/badges/simple_heatmap_calendar-pub.svg)](https://pub.dev/packages/simple_heatmap_calendar) [![likes](profile/badges/simple_heatmap_calendar-likes.svg)](https://pub.dev/packages/simple_heatmap_calendar) [![downloads / 30d](profile/badges/simple_heatmap_calendar-downloads.svg)](https://pub.dev/packages/simple_heatmap_calendar) ![stars](profile/badges/simple_heatmap_calendar-stars.svg) |
+| ![dart](profile/badges/static/icon-dart.svg) | [Simple WebDAV Client](https://github.com/FriesI23/simple_webdav_client) | [![pub](profile/badges/simple_webdav_client-pub.svg)](https://pub.dev/packages/simple_webdav_client) [![likes](profile/badges/simple_webdav_client-likes.svg)](https://pub.dev/packages/simple_webdav_client) ![stars](profile/badges/simple_webdav_client-stars.svg) |
+| ![dart](profile/badges/static/icon-dart.svg) | [Great List View Plus](https://github.com/FriesI23/great_list_view_plus) | [![pub](profile/badges/great_list_view_plus-pub.svg)](https://pub.dev/packages/great_list_view_plus) [![likes](profile/badges/great_list_view_plus-likes.svg)](https://pub.dev/packages/great_list_view_plus) ![stars](profile/badges/great_list_view_plus-stars.svg) |
+| ![dart](profile/badges/static/icon-dart.svg) | [iOS Window Control Layout](https://github.com/FriesI23/ios_window_control_layout) | [![pub](profile/badges/ios_window_control_layout-pub.svg)](https://pub.dev/packages/ios_window_control_layout) [![likes](profile/badges/ios_window_control_layout-likes.svg)](https://pub.dev/packages/ios_window_control_layout) [![downloads / 30d](profile/badges/ios_window_control_layout-downloads.svg)](https://pub.dev/packages/ios_window_control_layout) ![stars](profile/badges/ios_window_control_layout-stars.svg) |
+| ![dart](profile/badges/static/icon-dart.svg) | [Flutter Adaptive Sidebar](https://github.com/FriesI23/flutter_adaptive_sidebar) | [![pub](profile/badges/flutter_adaptive_sidebar-pub.svg)](https://pub.dev/packages/flutter_adaptive_sidebar) [![likes](profile/badges/flutter_adaptive_sidebar-likes.svg)](https://pub.dev/packages/flutter_adaptive_sidebar) [![downloads / 30d](profile/badges/flutter_adaptive_sidebar-downloads.svg)](https://pub.dev/packages/flutter_adaptive_sidebar) ![stars](profile/badges/flutter_adaptive_sidebar-stars.svg) |
+| ![dart](profile/badges/static/icon-dart.svg) | [Adaptive Actions](https://github.com/FriesI23/adaptive_actions) | [![pub](profile/badges/adaptive_actions-pub.svg)](https://pub.dev/packages/adaptive_actions) [![likes](profile/badges/adaptive_actions-likes.svg)](https://pub.dev/packages/adaptive_actions) [![downloads / 30d](profile/badges/adaptive_actions-downloads.svg)](https://pub.dev/packages/adaptive_actions) ![stars](profile/badges/adaptive_actions-stars.svg) |
+| ![dart](profile/badges/static/icon-dart.svg) | [Native Natural Sort](https://github.com/FriesI23/native_natural_sort) | [![pub](profile/badges/native_natural_sort-pub.svg)](https://pub.dev/packages/native_natural_sort) [![likes](profile/badges/native_natural_sort-likes.svg)](https://pub.dev/packages/native_natural_sort) ![stars](profile/badges/native_natural_sort-stars.svg) |
+| ![dart](profile/badges/static/icon-dart.svg) | [Win2IANA TimeZone Converter](https://github.com/FriesI23/win2iana_tz_converter) | [![pub](profile/badges/win2iana_tz_converter-pub.svg)](https://pub.dev/packages/win2iana_tz_converter) [![likes](profile/badges/win2iana_tz_converter-likes.svg)](https://pub.dev/packages/win2iana_tz_converter) ![stars](profile/badges/win2iana_tz_converter-stars.svg) |
+| ![dart](profile/badges/static/icon-dart.svg) | [Dart Transmission RPC](https://github.com/FriesI23/dart_transmission_rpc) | [![pub](profile/badges/dart_transmission_rpc-pub.svg)](https://pub.dev/packages/dart_transmission_rpc) [![likes](profile/badges/dart_transmission_rpc-likes.svg)](https://pub.dev/packages/dart_transmission_rpc) ![stars](profile/badges/dart_transmission_rpc-stars.svg) |
+| ![dart](profile/badges/static/icon-dart.svg) | [Named HTML Color](https://github.com/FriesI23/named_html_color) | [![pub](profile/badges/named_html_color-pub.svg)](https://pub.dev/packages/named_html_color) [![likes](profile/badges/named_html_color-likes.svg)](https://pub.dev/packages/named_html_color) ![stars](profile/badges/named_html_color-stars.svg) |
+| ![openwrt](profile/badges/static/icon-openwrt.svg) | [OpenWrt ddns-scripts for Tencent Cloud (DNSPod)](https://github.com/FriesI23/ddns-scripts_tencent_cloud) | ![stars](profile/badges/ddns-scripts_tencent_cloud-stars.svg) |
+| ![python](profile/badges/static/icon-python.svg) | [DNSPod DDNS PY](https://github.com/FriesI23/dnspod_ddns_py) | ![stars](profile/badges/dnspod_ddns_py-stars.svg) |
+| ![actions](profile/badges/static/icon-actions.svg) | [Homebrew Bump Cask Plus](https://github.com/FriesI23/action-homebrew-bump-cask) | ![stars](profile/badges/action-homebrew-bump-cask-stars.svg) [![marketplace](profile/badges/static/icon-marketplace.svg)](https://github.com/marketplace/actions/homebrew-bump-cask-plus) [![used by Ferdium](profile/badges/static/ferdium.svg)](https://github.com/ferdium/ferdium-app/blob/develop/.github/workflows/homebrew-cask-updates.yml) |
+| ![actions](profile/badges/static/icon-actions.svg) | [Honkit Build Page](https://github.com/FriesI23/honkit-build-page) | ![stars](profile/badges/honkit-build-page-stars.svg) [![marketplace](profile/badges/static/icon-marketplace.svg)](https://github.com/marketplace/actions/honkit-build-page) |
+| ![docs](profile/badges/static/icon-docs.svg) | [RFC4918 CN](https://github.com/FriesI23/rfc4918-cn) | ![stars](profile/badges/rfc4918-cn-stars.svg) [![gitbook](profile/badges/static/icon-gitbook.svg)](https://friesi23.github.io/rfc4918-cn/) |
+| ![github](profile/badges/static/icon-github.svg) | [Homebrew Repo](https://github.com/FriesI23/homebrew-brew-repo) | [![cask](profile/badges/cask.svg)](https://brew-repo.friesi23.icu/) [![cask-third-party](profile/badges/cask-third-party.svg)](https://brew-repo.friesi23.icu/) [![third-party](profile/badges/static/third-party.svg)](https://brew-repo.friesi23.icu/) |
+| ![github](profile/badges/static/icon-github.svg) | [AltStore Repo](https://github.com/FriesI23/altstore-repo) | [![altstore](profile/badges/static/icon-altstore.svg)](https://friesi23.icu/altstore-repo/pages/altstore.html) [![sidestore](profile/badges/static/icon-sidestore.svg)](https://friesi23.icu/altstore-repo/pages/sidestore.html) |
+| ![github](profile/badges/static/icon-github.svg) | [Flathub Repo - Table Habit](https://github.com/flathub/io.github.friesi23.mhabit) | [![flathub](profile/badges/flathub-version.svg)](https://flathub.org/apps/io.github.friesi23.mhabit) [![installs](profile/badges/flathub-installs.svg)](https://flathub.org/apps/io.github.friesi23.mhabit) |
+| ![github](profile/badges/static/icon-github.svg) | [Scoop Bucket](https://github.com/FriesI23/scoop-bucket) | [![apps](profile/badges/scoop-apps.svg)](https://github.com/FriesI23/scoop-bucket) |
+
+<!-- profile-projects:end -->
 
 ---
 
-[![GitHub](https://img.shields.io/badge/GitHub-FriesI23-181717?style=flat-square&logo=github)](https://github.com/FriesI23)
-![Followers](https://img.shields.io/github/followers/FriesI23?style=flat-square&label=Followers)
+[![GitHub](profile/badges/static/github-profile.svg)](https://github.com/FriesI23)
+![Followers](profile/badges/followers.svg)
 ![Profile views](https://komarev.com/ghpvc/?username=FriesI23&style=flat-square&color=0e75b6)
-
-<!-- icons -->
-
-[icon-app]: https://img.shields.io/badge/-02569B?style=flat-square&logo=flutter&logoColor=white
-[icon-dart]: https://img.shields.io/badge/-00ADD8?style=flat-square&logo=dart&logoColor=white
-[icon-openwrt]: https://img.shields.io/badge/-00B5E2?style=flat-square&logo=openwrt&logoColor=white
-[icon-python]: https://img.shields.io/badge/-3776AB?style=flat-square&logo=python&logoColor=white
-[icon-github]: https://img.shields.io/badge/-181717?style=flat-square&logo=github&logoColor=white
-[icon-altstore]: https://img.shields.io/badge/AltStore-FF5A5F?style=flat-square
-[icon-sidestore]: https://img.shields.io/badge/SideStore-0A84FF?style=flat-square
-[icon-docs]: https://img.shields.io/badge/-000000?style=flat-square&logo=markdown&logoColor=white
-[icon-gitbook]: https://img.shields.io/badge/GitBook-7B36ED?style=flat-square&logo=gitbook&logoColor=white
-[icon-actions]: https://img.shields.io/badge/-2088FF?style=flat-square&logo=githubactions&logoColor=white
-[icon-marketplace]: https://img.shields.io/badge/Marketplace-2088FF?style=flat-square&logo=githubactions&logoColor=white
-
-<!-- refs -->
-
-[Table Habit]: https://github.com/FriesI23/mhabit
-[Simple Heatmap Calendar]: https://github.com/FriesI23/simple_heatmap_calendar
-[Simple WebDAV Client]: https://github.com/FriesI23/simple_webdav_client
-[Great List View Plus]: https://github.com/FriesI23/great_list_view_plus
-[iOS Window Control Layout]: https://github.com/FriesI23/ios_window_control_layout
-[Flutter Adaptive Sidebar]: https://github.com/FriesI23/flutter_adaptive_sidebar
-[Adaptive Actions]: https://github.com/FriesI23/adaptive_actions
-[Native Natural Sort]: https://github.com/FriesI23/native_natural_sort
-[Win2IANA TimeZone Converter]: https://github.com/FriesI23/win2iana_tz_converter
-[Dart Transmission RPC]: https://github.com/FriesI23/dart_transmission_rpc
-[Named HTML Color]: https://github.com/FriesI23/named_html_color
-[OpenWrt ddns-scripts for Tencent Cloud (DNSPod)]: https://github.com/FriesI23/ddns-scripts_tencent_cloud
-[DNSPod DDNS PY]: https://github.com/FriesI23/dnspod_ddns_py
-[Homebrew Bump Cask Plus]: https://github.com/FriesI23/action-homebrew-bump-cask
-[Homebrew Bump Cask Plus Marketplace]: https://github.com/marketplace/actions/homebrew-bump-cask-plus
-[Honkit Build Page]: https://github.com/FriesI23/honkit-build-page
-[Honkit Build Page Marketplace]: https://github.com/marketplace/actions/honkit-build-page
-[RFC4918 CN]: https://github.com/FriesI23/rfc4918-cn
-[RFC4918 CN Site]: https://friesi23.github.io/rfc4918-cn/
-[Homebrew Repo]: https://github.com/FriesI23/homebrew-brew-repo
-[Homebrew Tap Site]: https://brew-repo.friesi23.icu/
-[AltStore Repo]: https://github.com/FriesI23/altstore-repo
-[AltStore Source]: https://friesi23.icu/altstore-repo/pages/altstore.html
-[SideStore Source]: https://friesi23.icu/altstore-repo/pages/sidestore.html
-[Flathub Repo - Table Habit]: https://github.com/flathub/io.github.friesi23.mhabit
-[Scoop Bucket]: https://github.com/FriesI23/scoop-bucket

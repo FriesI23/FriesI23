@@ -1,0 +1,55 @@
+{% macro counts(metric) -%}
+{{ metric.get("total") | number }} | {{ metric.get("from") | period(metric.get("through")) }} | {{ metric.get("monthly") | number }} | {{ metric.get("monthlyStart") | period(metric.get("monthlyEnd")) }}
+{%- endmacro %}
+# {{ config.app.name }} distribution statistics
+
+**{{ downloads.total | number }} reported downloads** across the sources below. The latest source observation is {{ latest }}.
+
+**{{ downloads.monthly | number }} downloads over {{ days }} days** ({{ downloads.start | period(downloads.end) }}). Flathub and IzzyOnDroid contribute daily counts for the same {{ days }} dates. Downloads can include repeat downloads and updates.
+
+{% for reason in [downloads.get("totalRetainedReason"), downloads.get("monthlyRetainedReason")] if reason %}
+{{ reason }}
+
+{% endfor %}
+| Download source | Cumulative | Cumulative coverage | {{ days }} days | {{ days }}-day coverage | Status |
+| --- | ---: | --- | ---: | --- | --- |
+{% for source in downloads.sources %}
+| [{{ config.channels[source.id].name }}]({{ source.url }}) | {{ counts(source) }} | {{ "Last available report" if source.stale else "Reported" }} |
+{% endfor %}
+
+A dash means an exact count or date range is unavailable. Each cumulative figure ends on its own last reported date.
+
+{% for source in downloads.sources %}
+- **{{ config.channels[source.id].name }}** — {{ config.channels[source.id].note }}
+{% endfor %}
+
+## Google Play installs and upgrades
+
+| Metric | Reported total | Coverage | {{ days }} days | {{ days }}-day coverage | Status |
+| --- | ---: | --- | ---: | --- | --- |
+| Device installs | {{ counts(store) }} | {{ store_status }} |
+| Device upgrades | {{ counts(upgrades) }} | {{ "Field unavailable" if store.get("total") is not none and upgrades.get("total") is none else store_status }} |
+
+The country reports provide Daily Device Installs and Daily Device Upgrades as separate metrics. Each count covers its own reported dates. A {{ days }}-day count requires every date in the window. Upgrades and installs contribute to neither download badge. [Google Play report definitions]({{ config.urls.google_play_reports }})
+
+{% if store.get("total") is none or store.get("status") == "stale" %}
+Google Play showed **{{ config.google_play.listing_milestone }} downloads** on its public listing on {{ config.google_play.milestone_date }}. This rounded milestone is excluded from both badges. [Google Play listing]({{ links.google }})
+
+{% endif %}
+{% if store.get("missingDays") %}
+{{ store.missingDays | number }} dates within the device-install coverage period have no report rows. The cumulative figure covers the reported dates only.
+
+{% endif %}
+{% if upgrades.get("missingDays") %}
+{{ upgrades.missingDays | number }} dates within the device-upgrade period lack a complete upgrade count.
+
+{% endif %}
+The [Apple App Store]({{ links.apple }}) and [Microsoft Store]({{ links.microsoft }}) listings are public. Their developer analytics have restrictions on disclosure, so this page excludes their private counts. [Apple §6.7]({{ config.urls.apple_agreement }}) · [Microsoft §9(c)]({{ config.urls.microsoft_agreement }})
+
+## Distribution links
+
+{% for platform, channels in config.distribution.items() %}
+- **{{ platform }}** — {% for key in channels %}[{{ config.channels[key].name }}]({{ links[key] }}){{ ", " if not loop.last }}{% endfor %}.
+{% endfor %}
+
+Homebrew, Scoop, AltStore, SideStore and Obtainium direct clients to GitHub release assets. Their traffic is already represented in the GitHub asset counter. TestFlight is a beta distribution channel with no public download count.

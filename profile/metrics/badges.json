@@ -1,0 +1,65 @@
+{
+  "directories": {
+    "cask": 2,
+    "cask-third-party": 4,
+    "scoop-apps": 2
+  },
+  "flathubInstalls": 6851,
+  "flathubVersion": "1.27.25+214",
+  "followers": 78,
+  "pubDownloads": {
+    "adaptive_actions": 1029,
+    "dart_transmission_rpc": 109,
+    "flutter_adaptive_sidebar": 1596,
+    "great_list_view_plus": 274,
+    "ios_window_control_layout": 3603,
+    "named_html_color": 24,
+    "native_natural_sort": 753,
+    "simple_heatmap_calendar": 1158,
+    "simple_webdav_client": 852,
+    "win2iana_tz_converter": 795
+  },
+  "pubLikes": {
+    "adaptive_actions": 1,
+    "dart_transmission_rpc": 2,
+    "flutter_adaptive_sidebar": 1,
+    "great_list_view_plus": 1,
+    "ios_window_control_layout": 3,
+    "named_html_color": 5,
+    "native_natural_sort": 1,
+    "simple_heatmap_calendar": 18,
+    "simple_webdav_client": 7,
+    "win2iana_tz_converter": 3
+  },
+  "pubVersions": {
+    "adaptive_actions": "0.8.1",
+    "dart_transmission_rpc": "0.1.2",
+    "flutter_adaptive_sidebar": "0.5.1",
+    "great_list_view_plus": "0.3.1",
+    "ios_window_control_layout": "0.6.0",
+    "named_html_color": "0.0.3+1",
+    "native_natural_sort": "0.1.4",
+    "simple_heatmap_calendar": "0.5.1",
+    "simple_webdav_client": "0.3.0",
+    "win2iana_tz_converter": "0.1.3"
+  },
+  "release": "v1.27.24+213",
+  "stars": {
+    "action-homebrew-bump-cask": 2,
+    "adaptive_actions": 2,
+    "dart_transmission_rpc": 3,
+    "ddns-scripts_tencent_cloud": 5,
+    "dnspod_ddns_py": 3,
+    "flutter_adaptive_sidebar": 1,
+    "great_list_view_plus": 1,
+    "honkit-build-page": 2,
+    "ios_window_control_layout": 2,
+    "mhabit": 1719,
+    "named_html_color": 3,
+    "native_natural_sort": 1,
+    "rfc4918-cn": 3,
+    "simple_heatmap_calendar": 23,
+    "simple_webdav_client": 12,
+    "win2iana_tz_converter": 3
+  }
+}

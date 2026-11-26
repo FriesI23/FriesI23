@@ -1,0 +1,20 @@
+{
+  "from": null,
+  "missingDays": null,
+  "monthly": null,
+  "monthlyEnd": null,
+  "monthlyStart": null,
+  "months": {},
+  "status": "unconfigured",
+  "through": null,
+  "total": null,
+  "upgrades": {
+    "from": null,
+    "missingDays": null,
+    "monthly": null,
+    "monthlyEnd": null,
+    "monthlyStart": null,
+    "through": null,
+    "total": null
+  }
+}

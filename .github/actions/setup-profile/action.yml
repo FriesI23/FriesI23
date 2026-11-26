@@ -1,0 +1,21 @@
+name: Set up profile tools
+description: Install the Python environment and locked dependencies for the profile generator.
+inputs:
+  groups:
+    description: Comma-separated Poetry dependency groups to install.
+    default: main
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v6
+      with:
+        python-version: '3.13'
+    - name: Install Poetry
+      shell: bash
+      run: pipx install --force --python python poetry==2.5.2
+    - name: Install the profile package
+      shell: bash
+      env:
+        POETRY_GROUPS: ${{ inputs.groups }}
+      working-directory: scripts/profile
+      run: poetry install --only "$POETRY_GROUPS"

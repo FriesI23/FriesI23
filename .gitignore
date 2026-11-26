@@ -1,0 +1,4 @@
+# Share the workspace formatter and keep other editor files local.
+!/.vscode/
+/.vscode/*
+!/.vscode/settings.json

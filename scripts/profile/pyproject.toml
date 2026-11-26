@@ -1,0 +1,289 @@
+[project]
+name = "profile-badges"
+version = "0.1.0"
+description = "Generate the GitHub profile badges and distribution report"
+requires-python = ">=3.11,<4"
+readme = "README.md"
+dependencies = [
+    "badgepy>=2.0.3,<3",
+    "google-auth>=2.26,<3",
+    "google-cloud-storage>=3,<4",
+    "httpx>=0.28,<1",
+    "Jinja2>=3.1,<4",
+    "PyGithub>=2.9,<3",
+]
+
+[project.scripts]
+profile-badges = "profile_badges.cli:main"
+
+[tool.poetry]
+packages = [{ include = "profile_badges", from = "src" }]
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "^9.0"
+ruff = "^0.17.6"
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.lint]
+select = ["E4", "E501", "E7", "E9", "F", "I", "W505"]
+
+[tool.ruff.lint.pycodestyle]
+max-doc-length = 72
+
+[build-system]
+requires = ["poetry-core>=2.0,<3.0"]
+build-backend = "poetry.core.masonry.api"
+
+# The profile catalog. Projects appear in the README in this order.
+[tool.profile-badges.profile]
+owner = "FriesI23"
+pub_downloads_threshold = 1000
+
+[tool.profile-badges.app]
+project = "mhabit"
+package_id = "io.github.friesi23.mhabit"
+asset_extensions = [".APK", ".AAB", ".IPA", ".DMG", ".MSIX", ".Flatpak"]
+
+[tool.profile-badges.downloads]
+period_days = 30
+flathub_cache_days = 93
+flathub_reseed_days = 14
+stale_days = 7
+fdroid_stale_days = 14
+izzy_first_day = "2024-12-08"
+
+[tool.profile-badges.trophy]
+url = "https://github-profile-trophy-five-flax.vercel.app/"
+row = 3
+column = 5
+rank = "SECRET,CSSS,SS,S"
+dark_theme = "darkhub"
+
+[tool.profile-badges.google_play]
+listing_milestone = "1K+"
+milestone_date = "2026-11-26"
+
+[tool.profile-badges.urls]
+github_api = "https://api.github.com"
+pub_api = "https://pub.dev/api"
+flathub_api = "https://flathub.org/api/v2"
+flathub_daily = "https://flathub.org/stats/{datepath}.json"
+flathub_history = "https://klausenbusk.github.io/flathub-stats/data/{package_id}.json"
+fdroid_weeks = "https://grote.gitlab.io/fdroid-metrics-distilled/apps/{package_id}.json"
+izzy_api = "https://dlstats.izzyondroid.org/iod-stats-collector/stats/basic"
+google_play_reports = "https://support.google.com/googleplay/android-developer/answer/6135870?hl=en"
+apple_agreement = "https://developer.apple.com/support/terms/apple-developer-program-license-agreement/"
+microsoft_agreement = "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/store/documents/legal/ada/fy26/MS.Store.ADAv8.10.EN.US.pdf"
+
+[tool.profile-badges.channels.github]
+name = "GitHub Releases"
+url = "https://github.com/{owner}/{repo}/releases"
+note = "Downloads of published {extensions} assets, including prereleases. Source archives and verification files are excluded. GitHub publishes cumulative asset counters."
+
+[tool.profile-badges.channels.izzy]
+name = "IzzyOnDroid"
+url = "https://stats.izzyondroid.org/#app-trends?app={package_id}"
+listing_url = "https://apt.izzysoft.de/fdroid/index/apk/{package_id}"
+note = "APK downloads, including updates. The cumulative count sums separate calendar years in the public archive. [Download statistics API](https://izzyondroid.org/about/resources/apis/#downloads)"
+
+[tool.profile-badges.channels.flathub]
+name = "Flathub"
+url = "https://flathub.org/apps/{package_id}"
+note = "App downloads across architectures, including updates. The Flathub project row also shows the store’s install counter. [App download history]({flathub_history}) · [Flathub statistics](https://docs.flathub.org/docs/for-app-authors/maintanance/#download-statistics)"
+
+[tool.profile-badges.channels.fdroid]
+name = "F-Droid"
+url = "{fdroid_weeks}"
+listing_url = "https://f-droid.org/packages/{package_id}/"
+note = "Weekly APK requests recorded by reporting F-Droid servers. Independent mirrors fall outside this dataset. [F-Droid coverage](https://f-droid.org/en/2026/03/13/twif.html)"
+
+[tool.profile-badges.channels.google]
+name = "Google Play"
+url = "https://play.google.com/store/apps/details?id={package_id}"
+
+[tool.profile-badges.channels.apple]
+name = "App Store"
+url = "https://apps.apple.com/app/table-habit/id6744886469"
+
+[tool.profile-badges.channels.microsoft]
+name = "Microsoft Store"
+url = "https://apps.microsoft.com/detail/9NG22PL73NGZ"
+
+[tool.profile-badges.channels.testflight]
+name = "TestFlight beta"
+url = "https://testflight.apple.com/join/aJ5PWqaR"
+
+[tool.profile-badges.channels.altstore]
+name = "AltStore"
+url = "https://friesi23.icu/altstore-repo/pages/altstore.html"
+
+[tool.profile-badges.channels.sidestore]
+name = "SideStore"
+url = "https://friesi23.icu/altstore-repo/pages/sidestore.html"
+
+[tool.profile-badges.channels.homebrew]
+name = "Homebrew tap"
+project = "homebrew-brew-repo"
+
+[tool.profile-badges.channels.scoop]
+name = "Scoop bucket"
+project = "scoop-bucket"
+
+[tool.profile-badges.channels.obtainium]
+name = "Obtainium setup"
+url = "https://github.com/{owner}/{repo}#installation"
+
+[[tool.profile-badges.projects]]
+id = "mhabit"
+name = "Table Habit"
+kind = "app"
+
+[[tool.profile-badges.projects]]
+id = "simple_heatmap_calendar"
+name = "Simple Heatmap Calendar"
+kind = "dart"
+
+[[tool.profile-badges.projects]]
+id = "simple_webdav_client"
+name = "Simple WebDAV Client"
+kind = "dart"
+
+[[tool.profile-badges.projects]]
+id = "great_list_view_plus"
+name = "Great List View Plus"
+kind = "dart"
+
+[[tool.profile-badges.projects]]
+id = "ios_window_control_layout"
+name = "iOS Window Control Layout"
+kind = "dart"
+
+[[tool.profile-badges.projects]]
+id = "flutter_adaptive_sidebar"
+name = "Flutter Adaptive Sidebar"
+kind = "dart"
+
+[[tool.profile-badges.projects]]
+id = "adaptive_actions"
+name = "Adaptive Actions"
+kind = "dart"
+
+[[tool.profile-badges.projects]]
+id = "native_natural_sort"
+name = "Native Natural Sort"
+kind = "dart"
+
+[[tool.profile-badges.projects]]
+id = "win2iana_tz_converter"
+name = "Win2IANA TimeZone Converter"
+kind = "dart"
+
+[[tool.profile-badges.projects]]
+id = "dart_transmission_rpc"
+name = "Dart Transmission RPC"
+kind = "dart"
+
+[[tool.profile-badges.projects]]
+id = "named_html_color"
+name = "Named HTML Color"
+kind = "dart"
+
+[[tool.profile-badges.projects]]
+id = "ddns-scripts_tencent_cloud"
+name = "OpenWrt ddns-scripts for Tencent Cloud (DNSPod)"
+kind = "openwrt"
+
+[[tool.profile-badges.projects]]
+id = "dnspod_ddns_py"
+name = "DNSPod DDNS PY"
+kind = "python"
+
+[[tool.profile-badges.projects]]
+id = "action-homebrew-bump-cask"
+name = "Homebrew Bump Cask Plus"
+kind = "actions"
+extras = [
+  { badge = "static/icon-marketplace", label = "marketplace", url = "https://github.com/marketplace/actions/homebrew-bump-cask-plus" },
+  { badge = "static/ferdium", label = "used by Ferdium", url = "https://github.com/ferdium/ferdium-app/blob/develop/.github/workflows/homebrew-cask-updates.yml" },
+]
+
+[[tool.profile-badges.projects]]
+id = "honkit-build-page"
+name = "Honkit Build Page"
+kind = "actions"
+extras = [
+  { badge = "static/icon-marketplace", label = "marketplace", url = "https://github.com/marketplace/actions/honkit-build-page" },
+]
+
+[[tool.profile-badges.projects]]
+id = "rfc4918-cn"
+name = "RFC4918 CN"
+kind = "docs"
+extras = [{ badge = "static/icon-gitbook", label = "gitbook", url = "https://friesi23.github.io/rfc4918-cn/" }]
+
+[[tool.profile-badges.projects]]
+id = "homebrew-brew-repo"
+name = "Homebrew Repo"
+kind = "github"
+badge_link = "https://brew-repo.friesi23.icu/"
+extras = [{ badge = "static/third-party", label = "third-party" }]
+
+[[tool.profile-badges.projects]]
+id = "altstore-repo"
+name = "AltStore Repo"
+kind = "github"
+extras = [
+  { badge = "static/icon-altstore", channel = "altstore" },
+  { badge = "static/icon-sidestore", channel = "sidestore" },
+]
+
+[[tool.profile-badges.projects]]
+id = "flathub-manifest"
+name = "Flathub Repo - {app_name}"
+kind = "github"
+url = "https://github.com/flathub/{package_id}"
+extras = [
+  { badge = "flathub-version", label = "flathub", channel = "flathub" },
+  { badge = "flathub-installs", label = "installs", channel = "flathub" },
+]
+
+[[tool.profile-badges.projects]]
+id = "scoop-bucket"
+name = "Scoop Bucket"
+kind = "github"
+
+[[tool.profile-badges.directories]]
+badge = "cask"
+project = "homebrew-brew-repo"
+path = "Casks"
+extension = ".rb"
+label = "cask"
+color = "#fbb040"
+
+[[tool.profile-badges.directories]]
+badge = "cask-third-party"
+project = "homebrew-brew-repo"
+path = "Casks/third-party"
+extension = ".rb"
+label = "cask-third-party"
+color = "#fbb040"
+
+[[tool.profile-badges.directories]]
+badge = "scoop-apps"
+project = "scoop-bucket"
+path = "bucket"
+extension = ".json"
+label = "apps"
+color = "blue"
+
+[tool.profile-badges.distribution]
+Android = ["google", "fdroid", "izzy", "obtainium"]
+"iOS and macOS" = ["apple", "testflight", "altstore", "sidestore", "homebrew"]
+Windows = ["microsoft", "scoop"]
+Linux = ["flathub"]
+"Direct release assets" = ["github"]
