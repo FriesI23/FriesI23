@@ -1,15 +1,15 @@
 # Table Habit distribution statistics
 
-**315,726 reported downloads** across the sources below. The latest source observation is 2026-11-26.
+**341,236 reported downloads** across the sources below. The latest source observation is 2026-11-27.
 
 **6,665 downloads over 30 days** (2026-10-23 to 2026-11-21). Flathub and IzzyOnDroid contribute daily counts for the same 30 dates. Downloads can include repeat downloads and updates.
 
 | Download source | Cumulative | Cumulative coverage | 30 days | 30-day coverage | Status |
 | --- | ---: | --- | ---: | --- | --- |
-| [GitHub Releases](https://github.com/FriesI23/mhabit/releases) | 50,527 | 2023-04-26 to 2026-11-26 | — | — | Reported |
+| [GitHub Releases](https://github.com/FriesI23/mhabit/releases) | 50,645 | 2023-04-26 to 2026-11-27 | — | — | Reported |
 | [IzzyOnDroid](https://stats.izzyondroid.org/#app-trends?app=io.github.friesi23.mhabit) | 75,067 | 2024-12-08 to 2026-11-21 | 4,252 | 2026-10-23 to 2026-11-21 | Reported |
 | [Flathub](https://flathub.org/apps/io.github.friesi23.mhabit) | 27,346 | 2025-07-17 to 2026-11-24 | 2,413 | 2026-10-23 to 2026-11-21 | Reported |
-| [F-Droid](https://grote.gitlab.io/fdroid-metrics-distilled/apps/io.github.friesi23.mhabit.json) | 162,786 | 2024-01-29 to 2026-08-23 | — | — | Last available report |
+| [F-Droid](https://grote.gitlab.io/fdroid-metrics-distilled/apps/io.github.friesi23.mhabit.json) | 188,178 | 2024-01-29 to 2026-11-22 | — | — | Reported |
 
 A dash means an exact count or date range is unavailable. Each cumulative figure ends on its own last reported date.
 
